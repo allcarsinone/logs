@@ -1,0 +1,21 @@
+{
+  "name": "logsmicroservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "7.9",
+    "amqplib": "0.10.3",
+    "csv-parse": "^5.5.3",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.7"
+  }
+}
